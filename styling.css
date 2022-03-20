@@ -1,0 +1,200 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+
+.front {
+    min-height: 100vh;
+}
+#Title{
+    font-family: 'Lora',serif;
+    text-align: center;
+    color:#fff;
+    padding-top: 300px;
+    font-size:50px;
+  
+}
+
+#Date{
+    font-family: 'Lora',serif;
+    text-align: center;
+    color:#fff;
+    font-size: 25px;
+ 
+}
+
+.front p{
+    color:#fff;
+    text-align:center;
+    padding-top: 50px;
+    font-size:x-large;
+}
+span{
+    color:crimson;
+}
+
+.second-page {
+    background-color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  /*-----------Second Page--------------*/
+  
+
+#quote{
+ max-width: 800px;
+ margin-left: auto;
+ margin-right:auto;
+}
+
+#image{
+    max-width: 100%;
+    box-sizing:border-box;
+    float:right;
+    min-height: 700px;
+}
+
+.second-div-text{ 
+    order: 1;
+    flex-grow:1;
+    min-width: 30%;
+    margin-top: 25vh;
+    font-size: 1.7em;
+    text-align:center;
+    font-weight: 200;
+    margin-bottom: 25vh;
+}
+
+.second-div-image{
+    order: 2;
+    flex-grow: 1;
+    min-width: 45%;
+    align-self: flex-end;
+    max-width: 500px;
+}
+
+
+/*----------Third Page------------*/
+
+
+.third-div{
+    background-color: black;
+    min-height:100vh;
+    padding-bottom:2vw;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+}
+
+#third-div-content{
+    color:#fff;
+    font-family: 'Merriweather', serif;
+    margin-top: 5.5em;
+    margin-bottom: 2em;
+}
+
+#third-title{
+    font-size: 4em;
+    text-align: center;
+}
+
+#third-text{
+    margin-top: 2.5em;
+    font-size: 1.5em;
+    text-align: center;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+/***************Fourth Page********************/
+
+
+.fourth-div{
+    background-color: white;
+    background-image: url("https://images.indianexpress.com/2020/05/irrfan-graphic_759-1.jpg");
+    background-repeat: no-repeat;
+}
+
+#fourth-image-1{
+    margin-top: 13em;
+    order: 1;
+    flex-grow: 1;
+    min-width: 30%;
+    align-self: flex-end;
+    max-width: 200px;
+}
+
+#fourth-image-2{
+    margin-top: 1.5em;
+    order: 2;
+    flex-grow: 1;
+    max-width: 95%;
+    align-self: flex-end;
+    max-width: 500px;
+    min-height: 750px;
+}
+
+#fourth-image-3{
+    margin-top: 1.5em;
+    order: 3;
+    flex-grow: 1;
+    max-width: 45%;
+    align-self: flex-end;
+    max-width: 500px;
+    min-height: 600px;
+}
+
+#fourth-image-4{
+    margin-top: 1.5em;
+    align-self: center;
+    max-width: 500px;
+    min-width:400px;
+    min-height: 300px;
+}
+
+#fourth-image-5{
+    margin-top: 1.5em;
+    align-self: center;
+    max-width: 500px;
+    min-width:400px;
+    margin-left: 50px;
+}
+
+#fourth-image-6{
+    margin-top: 1.5em;
+    align-self: flex-end;
+    max-width: 500px;
+    min-width:400px;
+    margin-left: 100px;
+}
+
+#end-quote{
+    font-size:2.6em;
+    font-family: 'Prompt',sans-serif;
+    margin-top: 70px;
+    text-align: center;
+}
+
+#end-note{
+    font-size:1.7em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top:50px;
+}
+
+.copyright{
+    text-align: center;
+    color:black;
+    background-color: white;
+}
